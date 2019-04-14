@@ -1,0 +1,83 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./../css/index.css">
+    <title>formulario de cadastro</title>
+</head>
+<body>
+    <div>
+        <h1>Formulario de cadastro</h1>
+        <hr />
+        <nav>
+            <ul>
+                <li>
+                    <a href="./../index.html">Pagina Inicial</a>
+                </li>
+                <li>
+                    <a href="formulario.html">Formulario de cadastro</a>
+                </li>
+            </ul>
+        </nav>
+        <hr />
+        <div>
+            <form action="formulario-cadastro">
+                <div>
+                    <label for="nome" title="NOME">NOME</label>
+                    <input id="nome"  title="NOME" name="nome" type="text">
+                </div>
+                <div>
+                     <label for="sobrenome" title="Sobrenome">Sobrenome</label>
+                    <input id="sobrenome"  title="Sobrenome" name="sobrenome" type="text">
+                </div>
+                <div>
+                     <label for="data-nascimento" title="Data de nascimento">Data de nascimento</label>
+                    <input id="data-nascimento"  title="Data de nascimento" name="data-nascimento" type="date">
+                </div>
+                <div>
+                     <label for="identidade" title="Identidade">Identidade</label>
+                    <input id="identidade"  title="Identidade" name="identidade" type="number">
+                </div>
+                <div>
+                     <label for="cpf" title="CPF">CPF</label>
+                    <input id="cpf"  title="CPF" name="cpf" type="number">
+                </div>
+                <div>
+                     <label for="sexo" title="SEXO">SEXO</label>
+                     <div>
+                         <input id="masculino"  title="MASCULINO" name="sexo" type="radio">
+                         <label for="masculino" title="MASCULINO">MASCULINO</label>
+                         <br>
+                         <input id="feminino"  title="FEMININO" name="sexo" type="radio">
+                         <label for="feminino" title="FEMININO">FEMININO</label>
+                         <br>
+                         <input id="outros"  title="OUTROS" name="sexo" type="radio">
+                         <label for="outros" title="OUTROS">OUTROS</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="estado-civil" title="ESTADO CIVIL">ESTADO CIVIL</label>
+                    <input id="estado-civil"  title="ESTADO CIVIL" name="estado-civil" type="text">
+                </div>
+                <div>
+                    <label for="telefone" title="TELEFONE">TELEFONE</label>
+                    <input id="telefone"  title="TELEFONE" name="telefone" type="number">
+                </div>
+                <div>
+                    <label for="celular" title="CELULAR">TELEFONE</label>
+                    <input id="celular"  title="CELULAR" name="celular" type="number">
+                </div>
+                <div>
+                    <label for="email" title="EMAIL">EMAIL</label>
+                    <input id="email"  title="EMAIL" name="email" type="email">
+                </div>
+                <div>
+                    <label for="endereço" title="ENDEREÇO">ENDEREÇO</label>
+                    <textarea rows="4" cols="50"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
